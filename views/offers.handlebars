@@ -1,0 +1,29 @@
+<div class= "container-fluid">
+    <div class= "row"> 
+        <div class= "col-8 text-center">
+            <p>{{product.id}}</p>
+            <h1>{{product.title}}</h1>
+            {{#each product.images}}
+            <img src= "{{this}}"/>
+            {{/each }}
+            <p>{{product.criteria.type}}</p>
+            <p>{{product.criteria.size}}</p>
+            <p>Price : {{product.price}}</p>
+            <p>Description : {{product.description}}</p>
+            <p>{{product.create}}</p>
+            <p>City : {{product.city}}</p>
+        </div>
+    </div>
+
+    
+    <asid eclass="col-12">
+        <img src="{{imgProfile}}"/>
+        <p>{{user}}</p>
+        <p>{{description}}</p>
+    </aside>
+</container>
+
+
+
+
+

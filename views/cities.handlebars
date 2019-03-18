@@ -1,0 +1,36 @@
+<div class='container'>
+    <div class= "row m-12 justify-content-center">
+        {{!-- on recupere la clef du nouveau  tableau de la route cities/city--}}
+        {{#each offer}} 
+            <div class='col-12 col-lg-4 col-md-6 col-sm-12'>
+                <div class="card mt-5" style="width: 18rem;">
+                    <img src="{{firstImg}}" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">{{title}}</h5>
+                        <p class="card-text">{{price}} euros</p>
+                        <a href="/offers/{{id}}" class="btn btn-primary">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
